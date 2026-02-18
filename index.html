@@ -177,6 +177,32 @@
             rotate: -2199600deg;
         }
 
+
+        /* MOBILE FIX */
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    div[class^="main"] {
+        height: auto;
+    }
+
+    div[class^="main"] > div {
+        position: static !important;
+        width: 90% !important;
+        height: auto !important;
+        margin: 20px auto;
+    }
+
+    div[class^="main"] img {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
+
+
        
 
 
@@ -220,3 +246,4 @@
 </body>
 
 </html>
+
